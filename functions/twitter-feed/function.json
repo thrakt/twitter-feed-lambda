@@ -1,0 +1,14 @@
+{
+  "memory": 128,
+  "timeout": 10,
+  "environment": {
+    "CONSUMER_KEY": "",
+    "CONSUMER_SECRET": "",
+    "ACCESS_TOKEN": "",
+    "ACCESS_TOKEN_SECRET": "",
+    "HOST": "localhost"
+  },
+  "hooks":{
+    "build": "pip install -r requirements.txt -t ."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "twitter-feed-lambda",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::346140095309:role/twitter-feed-lambda_lambda_function",
+  "environment": {}
+}

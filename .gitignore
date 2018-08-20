@@ -1,0 +1,10 @@
+functions/twitter-feed/*.dist-info
+functions/twitter-feed/bin
+functions/twitter-feed/certifi
+functions/twitter-feed/chardet
+functions/twitter-feed/idna
+functions/twitter-feed/oauthlib
+functions/twitter-feed/requests
+functions/twitter-feed/requests_oauthlib
+functions/twitter-feed/urllib3
+.vscode
