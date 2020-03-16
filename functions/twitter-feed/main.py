@@ -181,7 +181,7 @@ def return_feed(uid):
         tweet_link = "https://twitter.com/"+e["user"]["screen_name"]+"/status/"+e["id_str"]
         link = tweet_link
         if len(e["entities"]["urls"]) == 1:
-            link = e["entities"]["urls"][0]["expanded_url"]
+            link = e["entities"]["urls"][0]["expanded_url"].replace("&", "&amp;")
 
         xml += """
 <entry>
